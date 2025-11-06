@@ -1,17 +1,18 @@
-# 🚀 TRIANCE-AI
+# 🚀 ITDR
 
-**TRIANCE-AI** is a modular, scalable microservices-based project built with **Node.js**, **TypeScript**, **React**, and **Tailwind CSS**. It supports both user and admin workflows and includes a shared `commons` library for code reuse.
+**ITDR** is a modular, scalable microservices monorepo built with **Node.js**, **TypeScript**, **React**, and **Tailwind CSS**.  
+The repo contains separate services for User/Admin frontends and backends plus a shared `commons` package for reusable types and utilities.
 
 ---
 
 ## 📁 Monorepo Structure
 
 ```bash
-TRIANCE-AI/
+ITDR/
 │
-├── triance-user-frontend      # React + Tailwind (User App)
-├── triance-user-backend       # Node.js + TypeScript (User API)
-├── triance-admin-frontend     # React + Tailwind (Admin App)
-├── triance-admin-backend      # Node.js + TypeScript (Admin API)
-├── triance-auth-backend       # Node.js + TypeScript (Authentication API)
-└── triance-commons            # Shared code (types, utils, interfaces)
+├── itdr-user-frontend      # React + TypeScript + Tailwind (User App)
+├── itdr-user-backend       # Node.js + TypeScript (User API)
+├── itdr-admin-frontend     # React + TypeScript + Tailwind (Admin App)
+├── itdr-admin-backend      # Node.js + TypeScript (Admin API)
+├── itdr-auth-backend       # Node.js + TypeScript (Auth API)
+└── itdr-commons            # Shared code (types, utils, interfaces)
